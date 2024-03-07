@@ -1,0 +1,49 @@
+
+.main{
+    background: black;
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    background: rgb(209, 188, 188);
+    height: 35rem;
+    width: 20rem;
+    border-radius: .8rem;
+}
+
+.parent img{
+    border-radius: .8rem;
+    margin: 2rem;
+    margin-left: 2.5rem;
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.switch{
+    margin-left: 2.5rem;
+
+}
+.switch button{
+    border-radius: .8rem;
+    height: 2rem;
+    background: rgb(27, 186, 149);
+    border: none;
+    
+}
+.content{
+    margin: 1rem;
+    margin-left: 2.5rem;
+    text-decoration: aqua;
+}
+.con{
+    color: rgb(12, 15, 5);
+}
+.button{
+    text-decoration: none;
+}
+.parent:hover img {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
